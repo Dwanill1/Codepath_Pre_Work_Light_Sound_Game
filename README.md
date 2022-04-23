@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-https://drive.google.com/file/d/1bp0yJv8bMpIaPj4H84TPUflUrCKkyTFi/view?usp=sharing
+https://media.giphy.com/media/Ehei2VYc3Mg9dXnyYT/giphy.gif
 
 
 ## Reflection Questions
