@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
+https://drive.google.com/file/d/1bp0yJv8bMpIaPj4H84TPUflUrCKkyTFi/view?usp=sharing
 
 
 ## Reflection Questions
@@ -48,25 +48,29 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 N/A
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 A challenge I faced in creating this submission is creating the playClueSequence() function. My code was making the buttons work and change the light as well as the audio was working when clicking the buttons. However, when I finished working on the playClueSequence() function, the game was not displaying the clues even though I followed the instructions given in the pre work. I followed a traceback procedure, from one function to another to check what function was affecting the error but was not able to figure it out.
 I went through a more elaborate debugging process then. I tested every single function which was a part of this program and commented out the others to check the function. I then was able to narrow the functions which caused the issued to playClueSequence(), playSingleClue(), lightbutton() and clearButton(). After this, I went back to reading the pre work more carefully again and I found this mistake to be in the lightbutton() and clearButton()  functions. I had put the wrong button name in the functions. This made the functions not use the correct button ID to add the clues in the game. I changed the button name to the one in the html function and the playClueSequence() function started to work efficiently.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+After completing some front-end web development coding in this pre work some questions have come up in my mind. First, are data structures in web development? If yes, it only used for backend or can it be used in frontend as well. Another question which came up is whether css, javascript and html are best used if used together or are they better to be used individually are they better to use? Another question which came up is how can I connect a database to a web app? How are frameworks like React, Node.js and more being currently used in the process of web development? Another question which came up was whether web development is only limited to websites or other web applications as well? These are all the questions which came up for me. I’m sure more questions will come up because web development is a broad form of development and it is fun learning about it.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+If I had a few more hours on this project, I would definitely work on adding more features in the project. I would love to add more design to the project to make it look better. I would create a function which randomly selects patterns every time a user starts the game. I would add a feature which allows the user to decide the pace they want for the clues to come as well as the choice of the colors. I would also work on adding various audios to the game making it more fun to learn about it. I would work on editing the playClueSequence() function which would give clues in different ways as well. I would also add more buttons to the game making it more interesting to play with. 
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://drive.google.com/file/d/1jncZyc0hAYf3F7QtkGjMlp3XpZcevtwy/view?usp=sharing
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Dhwanil Nikunj Mehta]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
