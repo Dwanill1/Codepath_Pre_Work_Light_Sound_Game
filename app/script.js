@@ -29,10 +29,10 @@ function stopGame() {
 
 
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2,
+  1: 262,
+  2: 330,
+  3: 395,
+  4: 466.3,
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
